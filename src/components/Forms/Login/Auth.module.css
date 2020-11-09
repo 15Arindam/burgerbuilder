@@ -1,0 +1,38 @@
+.Wrapper{
+    background-color: #eee;
+    width: 90%;
+    box-shadow: 0 0 7px 2px rgba(0,0,0,0.5);
+    margin: 20vh auto;
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+form button:disabled{
+    cursor: not-allowed;
+}
+.btnStyle{
+    position: inherit;
+    display: block !important;
+    margin-top: 17px;
+}
+.toggle{
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+    padding: 7px;
+}
+.toggle span{
+    display: inline-block;
+    color: #777777;
+}
+.toggle span:hover{
+    color: dodgerblue;
+}
+.err{
+    padding: 7px;
+    color: red;
+    background-color: #ff826c79;
+    border-radius: 5px;
+}

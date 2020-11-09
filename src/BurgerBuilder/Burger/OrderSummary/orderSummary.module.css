@@ -1,0 +1,8 @@
+.orderSummary{
+    overflow: auto;
+}
+@media (max-height: 420px) and (min-width: 600px){
+    .orderSummary{
+        height: 256px;
+    }
+}

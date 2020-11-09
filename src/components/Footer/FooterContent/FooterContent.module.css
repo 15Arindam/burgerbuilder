@@ -1,0 +1,41 @@
+.social{
+    font-size: 25px;
+}
+.ulStyle{
+    list-style-type: none;
+    padding: 0;
+}
+.headings{
+    color: #409cff;
+    margin-bottom: 1rem !important;
+}
+.ulStyle li a{
+    color: #555;
+    text-decoration: none;
+}
+.social a{
+    margin: 5px;
+    color: #555;
+}
+a{
+    color: rgb(207, 198, 109);
+    text-decoration: none;
+}
+.fb:hover{
+    color: rgb(97, 86, 255);
+}
+.tw:hover{
+    color: dodgerblue;   
+}
+.inst:hover{
+    color: rgb(218, 117, 218);
+}
+.gp:hover{
+    color: rgb(241, 0, 93);
+}
+.em:hover{
+    color: rgb(105, 192, 105);
+}
+a:hover{
+    color: khaki;
+}

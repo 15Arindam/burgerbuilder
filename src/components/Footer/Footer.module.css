@@ -1,0 +1,26 @@
+.Footer{
+    position: absolute;
+    font-size: small;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 20px;
+    bottom: 0;
+    background-color: #eee;
+}
+.Wrapper{
+    position: relative;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+    margin-top: calc(100vh - 592px);
+}
+@media (max-Width: 767px){
+    .Wrapper{
+        margin-top: calc(100vh - 400px);
+    }
+}
+

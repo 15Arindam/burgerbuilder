@@ -1,0 +1,18 @@
+/* Mobile first */
+.navitems{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+}
+.navitems li a{
+    text-decoration: none;
+}
+@media (min-width: 500px){
+    .navitems{
+        flex-flow: row;
+    }
+}

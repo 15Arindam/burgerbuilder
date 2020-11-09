@@ -1,0 +1,19 @@
+/* .MyElement{
+    margin: 10px;
+    max-width: 250px;
+    min-width: 225px;
+} */
+.Invalid{
+    border: 2px solid red !important;
+    background-color: rgb(255, 184, 176) !important;
+    box-shadow: none !important;
+}
+/* .default{
+    text-align: center;
+} */
+.icon{
+    position: relative !important;
+    top: 45%;
+    left: 3%;
+    color: #777;
+}

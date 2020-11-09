@@ -1,0 +1,30 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border-radius: 7px;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    color: black;
+}
+
+.listfont{
+    font-family: "comic sans ms";
+}
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
+@media (max-height: 420px) and (min-width: 600px){
+    .Modal{
+        bottom: 15vh;
+        top: 15vh;
+    }
+}

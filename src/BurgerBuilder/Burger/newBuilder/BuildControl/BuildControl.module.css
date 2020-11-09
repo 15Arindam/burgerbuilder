@@ -1,0 +1,20 @@
+.btnwrap{
+    padding: 8px;
+    margin: auto;
+}
+.btnstyle{
+    height: auto;
+    font-size: 1.3em;
+    border: none;
+    padding: 12px 0px;
+    cursor: pointer;
+    float: left;
+    flex: 47%;
+    border-radius: 7px;
+    margin: auto 3px;
+}
+.btnstyle:hover{
+    text-shadow: 0 0 2px white;
+    border-top: 3px solid #000066;
+    border-bottom: 3px solid #000066;
+}

@@ -1,0 +1,82 @@
+.builder{
+    /* width: 500px; */
+    flex: 45%;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    float: left;
+    height: 450px;
+}
+.Ingwrapper{
+    display: flex;
+    height: 70%;
+    align-items: center;
+}
+.separator{
+    flex: 50%;
+    height: 90%;
+    border-radius: 7px;  
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00000e;
+    overflow: auto;
+    max-height: 250px;
+    min-height: 250px;
+    scrollbar-width: thin;
+}
+.separator h3{
+    position: sticky;
+    top: 0;
+    background-color: orange;
+    width: 100%;
+}
+
+.OrderButton {
+    background-color: #DAD735;
+    width: auto;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #966909;
+    color: #966909;
+    font-family: inherit;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    box-shadow: 2px 2px 2px #966909;
+}
+
+.OrderButton:hover, .OrderButton:active {
+    background-color: #A0DB41;
+    border: 1px solid #966909;
+    color: #966909;
+}
+
+.OrderButton:disabled {
+    background-color: #C7C6C6;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    color: #888888;
+}
+
+.OrderButton:not(:disabled) {
+    animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@media screen and (max-width:800px){
+    .separator{
+        flex-direction: column;
+    }
+}

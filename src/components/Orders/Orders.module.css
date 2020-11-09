@@ -1,0 +1,49 @@
+.Orders{
+    width: 80%;
+    contain: content;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0 0 7px 2px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #eee;
+    border-radius: 2px;
+}
+.list{
+    list-style-type: none;
+}
+.list li{
+    float: left;
+    margin: 2px;
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 2px;
+    padding: 7px;
+}
+.info{
+    align-items: center;
+}
+.delete{
+    position: absolute;
+    right: 3%;
+    top: 70%;
+    cursor: pointer;
+}
+.delete:hover{
+    color: tomato;
+}
+@media (max-width: 800px){
+    .Orders{
+        width: 90%;
+    }
+}
+@media (max-width: 600px){
+    .Orders{
+        width: 95%;
+    }
+}
+@media (max-width: 417px){
+    .Orders{
+        width: 100%;
+    }
+}

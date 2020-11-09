@@ -1,0 +1,12 @@
+.logo{
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    cursor: pointer;
+}
+.logowrapper{
+    padding: 7px 0;
+    height: 95%;
+    contain: content;
+    width: 65px;
+}
